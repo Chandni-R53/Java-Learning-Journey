@@ -26,8 +26,6 @@ public class Teacher {
         System.out.println("Teacher's salary is "+sal);
         return this;
     }
-    //dhfjskskaajdyebcnxkjcjloismncmnhjgncm,clkbshhsiudqdkdcz
-    //sjkahjahsh2137542743873885ry39r8y
 
     //main method
     public static void main(String[] args) {
