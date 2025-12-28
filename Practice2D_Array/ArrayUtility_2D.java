@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class ArrayUtility_2D {
 
-    public static int[][] get2DArr() {
-       Scanner sc=new Scanner(System .in);
+public static int[][] get2DArr() {
+Scanner sc=new Scanner(System .in);
 System.out.print("Enter the no. of rows and columns for 2D array:");
 int row=sc.nextInt();
 int column=sc.nextInt();

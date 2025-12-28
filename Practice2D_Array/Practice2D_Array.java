@@ -10,7 +10,8 @@ public class Practice2D_Array {
    else
    {System.out.println("The element is not found");}
    sumAndAvg(arr);
-   
+   int Sum=sumOfdiagonals(arr);
+   System.out.println("The sum of two diagonal elements is:"+Sum);
 }   
 //searching in 2D array
 public static boolean search(int[][] a){
@@ -38,6 +39,34 @@ public static void sumAndAvg(int[][] a){
     int column=a[0].length;
     double avg=(double)sum/(row*column);
     System.out.println("The avg of all elements is: "+avg);
+}
+//sum of two diagonal elements
+public static int sumOfdiagonals(int[][] a){
+    int left=sumOfLeft(a);
+    int right=sumOfRight(a);
+    int sum=left+right;
+    int ind=a.length/2;
+    if(a.length%2!=0){
+        sum-=a[ind][ind];
+    }
+    return sum;
+}
+public static int sumOfLeft(int[][] a){
+    int sum=0;
+    for(int i=0;i<a.length;i++){
+        sum+=a[i][i];
+    }
+    return sum;
+}
+public static int sumOfRight(int[][] a){
+    int sum=0;
+    int i=0;
+    while(i<a.length){
+        int j=a.length-1-i;
+        sum+=a[i][j];
+        i++;
+    }
+    return sum;
 }
 }
 
