@@ -1,6 +1,6 @@
 package Practice;
 import java.util.Scanner;
-public class Practice {
+public class Practice1 {
     public static void main(String[] args) {
         int N=userInput();
         multiply(N);
