@@ -15,4 +15,3 @@ public class ImmutableClass {
       //score value can not be changed once initialised bcoz of final keyword
     }
 }
-//Hello Gaurav, i hope you're doing well, actually we had no contact for last two days, so i was thinking is there everything alright? Are you okay? And what about your grandfather? how's he?
