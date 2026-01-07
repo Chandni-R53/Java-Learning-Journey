@@ -20,6 +20,16 @@ public class TestClass extends Student{
         System.out.println(t2.toString());
         System.out.println(t1.getClass());
         System.out.println(t1.hashCode());
+        
+        //check equals()
+        Student s1=new Student("Gaurav Pandey", 21, "male");
+        Student s2=new Student("Gaurav Pandey", 21, "male");
+        if(s1.equals(s2)){
+            System.out.println("Equals");
+        }
+        else{
+            System.out.println("Not Equals");
+        }
     }
     
 }
