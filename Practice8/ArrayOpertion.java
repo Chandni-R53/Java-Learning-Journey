@@ -29,6 +29,6 @@ public class ArrayOpertion {
             System.out.println(s.mean(ob));
     }
     
-
+hskjdjkksd
 }
 
