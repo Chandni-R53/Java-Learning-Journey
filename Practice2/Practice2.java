@@ -109,4 +109,4 @@ public class Practice2 {
         if(n1<n2) return n1;
         else return n2;
      }
-}ndnkdsfmd
+}
