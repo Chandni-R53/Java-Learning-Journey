@@ -110,4 +110,3 @@ public class Practice2 {
         else return n2;
      }
 }
-dfknfk
