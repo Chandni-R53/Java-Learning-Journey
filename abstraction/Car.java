@@ -11,4 +11,9 @@ public class Car extends Vehicle {
     public void makeSound(){
         System.out.println("bruhhhh.....");
     }
+
+    @Override
+    public void getSetGo(){
+        System.out.println("Going....");
+    }
 }

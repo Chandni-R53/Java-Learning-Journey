@@ -8,6 +8,7 @@ public class Test {
         c1.setTyres(2);
         System.out.println(c1.getTyres());
         c1.makeSound();
+        c1.getSetGo();
     
     }
 }
