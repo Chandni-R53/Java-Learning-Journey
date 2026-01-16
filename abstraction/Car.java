@@ -6,4 +6,9 @@ public class Car extends Vehicle {
     public Car(int tyres){
         super(tyres);
     }
+
+    @Override
+    public void makeSound(){
+        System.out.println("bruhhhh.....");
+    }
 }
