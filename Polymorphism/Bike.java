@@ -1,7 +1,7 @@
 package Polymorphism;
 
 public class Bike extends Vehicle{
-    @Override //anotation
+    @Override //annotation
     public void start(){
         System.out.println("Bike is starting...");
     }
