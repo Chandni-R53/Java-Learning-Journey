@@ -20,5 +20,6 @@ public class TryCatch {
         }catch(Throwable th){
             System.out.println("General exception");
         }
+    
     }
-}
+}c,scclmmc
