@@ -10,8 +10,13 @@ public class Exception {
         int ans=n1/n2;
         System.out.println("The result of division is "+ans);
         }catch(ArithmeticException e){
-            System.out.println("division by zero is not allowed, please enter the valid number");
+            if(e.getMessage().equals("/ by zero")){
+              System.out.println("division by zero is not allowed, please enter the valid number");
         }
+        else{
+            throw e;
+        }
+    }
 
     }
 }
