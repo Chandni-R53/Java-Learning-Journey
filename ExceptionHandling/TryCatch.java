@@ -19,6 +19,9 @@ public class TryCatch {
             System.out.println("array is out of bound");
         }catch(Throwable th){
             System.out.println("General exception");
+            throw th;
+        }finally{
+            System.out.println("Finally done!");
         }
     
     }
