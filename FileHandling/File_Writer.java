@@ -6,7 +6,7 @@ import java.io.IOException;
 public class File_Writer {
     public static void main(String[] args) {
         String fileName="JavaLearning.txt";
-        
+        //try with resource, it automatically close the resource
         try(FileWriter writer=new FileWriter(fileName)){
             writer.write("Hello, I'm learning Java");
             writer.flush();
