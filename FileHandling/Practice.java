@@ -21,6 +21,6 @@ public class Practice {
              System.out.printf("Exception occurred: %s",e.getMessage());
         }
 
-        snksksnma
+        
     }
 }
