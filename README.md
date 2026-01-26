@@ -12,7 +12,15 @@ and understanding core Java concepts step by step.
 - Loops
 - Arrays
 - Methods (Functions)
-- Basic OOP Concepts (in progress)
+- Object-Oriented Programming (OOP):
+    - Classes and Objects
+    - Constructors
+    - Encapsulation 
+    - Inheritance
+    - Polymorphism
+    - Abstraction
+- Exception Handling
+- File Handling
 
 ## 🎯 Goal
 To strengthen my Java fundamentals and gradually move towards Java backend development
